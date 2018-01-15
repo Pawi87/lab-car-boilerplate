@@ -1,68 +1,57 @@
-
-{     
- margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
-.container{
-    background-color: #F7B617;
-}
-    
-    }
-.img-responsive (max.width:100% height:auto;)
+/*fondo*/
 
-button{
-  text-decoration: none;
-  padding: 15px;
-  border-radius: 10px;
-  color:white;
-  width: 25%;
-  font-size: 25px;
-  outline: none;
+.bottom {
+    background-image: url(../assets/images/taxi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center bottom;
+   
 }
 
-button:hover {
-  
+.container-fluid{
+     background-color: #F7B617;
 }
 
-img{
-  height: 10em;
-  border-radius: 10px;
-    image-orientation: center;
-    
-}
-
-footer{
-  height: 4em;
-  background-color: #2D986A;
-  text-align: center;
-  padding: 1.8em;
-  color: black;
-}
-
-
-.back-img { /*fondo de pantalla 1*/
-  background-image: url('../assets/images/taxi.jpg');
-  background-size: auto;
-  background-position: center center;
-    background-color: #F7B617
+button {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 25%;
+    font-size: 25px;
 
 }
 
-a {
-  color: #616161;
-  text-decoration: none;
-  display: inline-flex;
-  padding: 20px 20px;
-}
+button:hover {}
 
 a:hover {
-  color: #2D986A;
+    color: white;
 }
 
-ul{
-  float: right;
+ul {
+    float: right;
+}
+
+
+.bottom-box{
+    background-color: #F7B617;
+   
+}
+.box orange{
+    background-color: #F7B617;
+    background-image: url(../assets/images/iPhone6Plus.png)
+    
+.box orange2{
+    background-color: #F7B617;
+    background-image: url(../assets/images/conduce.jpg)
 }
